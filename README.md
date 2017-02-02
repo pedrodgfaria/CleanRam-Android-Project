@@ -2,9 +2,11 @@
 
 Simple Process Killer
 
-Trusting on kernel, widget just call app, app just scan all running process's and ask kernel for kill, kernel decide what can be killed, finishing with a Toaster message.
 
-Opening app, is the same that open widget. Just made for fun and introduce android world :)
+Widget only opens the application.
+Application looks for all processes that are running and sends signal to kill, if it is a user application, will have the appropriate permissions to kill, releasing the respective memory and softening the system.
+
+Just made for fun and introduce android world :)
 
 Widget and App:
 
@@ -18,7 +20,7 @@ After finish:
 
 Installed via adb tools.
 
-I let the apk signed in the files:
+I let the apk in the files:
 
 https://github.com/hulkhoogan/CleanRam/blob/master/CleanRam.apk?raw=true
 
