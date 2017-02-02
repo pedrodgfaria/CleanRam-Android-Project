@@ -3,8 +3,8 @@
 Simple Process Killer
 
 
-Widget only opens the application.
-Application looks for all processes that are running and sends signal to kill, if it is a user application, will have the appropriate permissions to kill, releasing the respective memory and softening the system.
+The widget only opens the application. 
+The application looks for all processes that are running and sends a signal to kill them, if the target is a user application, the app will have the appropriate permissions to kill them, releasing the respective memory and smoothing the system.
 
 Just made for fun and introduce android world :)
 
