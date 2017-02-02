@@ -2,11 +2,7 @@
 
 Simple Process Killer
 
-Trusting on kernel, he ask for kill all the running app's, kernel decide what can be killed. Works great.
-
-Widget just call app, app just scan all running process's and ask kernel for kill, finishing with a Toaster message.
-
-There is the widget and the app.
+Trusting on kernel, widget just call app, app just scan all running process's and ask kernel for kill, kernel decide what can be killed, finishing with a Toaster message.
 
 Opening app, is the same that open widget. Just made for fun and introduce android world :)
 
